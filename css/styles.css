@@ -1,0 +1,204 @@
+body {
+    font-family: "Poppins";
+    position: absolute;
+    text-align: center;
+
+}
+
+#title .container-fluid {
+    text-align: left;
+    padding: 3% 10% 7%;
+}
+
+.container-fluid {
+    padding: 5% 10%;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins';
+    font-weight: bold;
+
+}
+
+.heading {
+    margin: auto;
+}
+
+.big-heading {
+    font-family: 'Poppins';
+    font-weight: 900;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+.big-sub-heading {
+    font-family: 'Poppins';
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: 2rem;
+}
+
+.section-heading {
+    font-family: 'Montserrat';
+    font-size: 2.5rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+/* Sections */
+
+.coloured-section {
+    color: #1A374D;
+
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+   
+
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar-brand {
+    font-family: 'Raleway';
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #406882;
+}
+
+.navbar-brand:hover {
+    color: #406882;
+
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-item a {
+    color: #406882;
+}
+
+.nav-item a:hover {
+    color: #1A374D;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Poppins';
+}
+
+/* Download Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.title-img {
+    width: 100%;
+}
+
+.left-col {
+    padding: 0;
+}
+
+/* Skills Section */
+
+
+#skills {
+    position: relative;
+    z-index: 1;
+    
+}
+
+.skill {
+    padding: 4%;
+}
+
+.skill i {
+    color: #406882;
+    padding-bottom: 1rem;
+}
+
+.skill i:hover{
+    color: #1A374D;
+}
+
+.skill-title {
+    font-size: 1.7rem;
+}
+
+/* .skill p {
+    color: #8f8f8f;
+} */
+
+.row {
+    margin: 0;
+}
+
+.skills-list {
+    padding: 0;
+    list-style: none;
+    color: #797878;
+    font-size: 1.3rem;
+}
+
+
+
+/* Portfolio Section */
+
+#portfolio {
+    padding: 100px;
+    border-top: 1px dashed #B1D0E0;
+
+}
+
+.portfolio-column {
+    padding: 3% 2%;
+}
+
+.portfolio-title {
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.portfolio-column img {
+    padding: 1rem;
+}
+
+
+
+.website-icons i {
+    padding: 0 0.5rem;
+}
+
+footer p {
+    color: #8f8f8f;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        position: static;
+        transform: rotate(0);
+    }
+}
