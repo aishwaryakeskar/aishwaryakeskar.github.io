@@ -53,7 +53,6 @@ h1, h2, h3, h4, h5, h6 {
 
     background-color: #8EC5FC;
     background-image: linear-gradient(180deg, #8EC5FC 0%, #FFF 100%);
-   
 
 }
 
@@ -215,7 +214,7 @@ footer p {
         font-family: 'Poppins';
         font-weight: 900;
         line-height: 1.2;
-        font-size: 3.2rem;
+        font-size: rem;
     }
     
     .big-sub-heading {
@@ -224,12 +223,12 @@ footer p {
         line-height: 1.2;
         padding-top: 2rem;
         padding-bottom: 3rem;
-        font-size: 2.2rem;
+        font-size: 3rem;
     }
 
     .section-heading {
         font-family: 'Montserrat';
-        font-size: 3.8rem;
+        font-size: 4.2rem;
         line-height: 1.5;
         margin-bottom: 1rem;
     }
@@ -239,13 +238,13 @@ footer p {
     }
 
     .skill-title {
-        font-size: 2.8rem;
+        font-size: 3rem;
     }
     .skills-list {
         padding: 0;
         list-style: none;
         color: #797878;
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
 
     .title-img {
@@ -260,12 +259,13 @@ footer p {
 
     footer p {
         color: #8f8f8f;
-        font-size: 1.8rem;
+        font-size: 2.4rem;
     }
 
     .website-icons i {
         padding: 0 1.5rem;
     }
+
 
 }
 
